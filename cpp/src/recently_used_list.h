@@ -12,10 +12,10 @@ public:
     RecentlyUsedList();
 
     void insert(const string& item);
-    const vector<string>& getContents() const;
+    const vector<string> getContents() const;
 
 private:
-    vector<string>* _contents;
+    vector<string> _contents;
 };
 
 #endif //SAMPLE_H
